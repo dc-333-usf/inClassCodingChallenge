@@ -5,11 +5,11 @@ let products = [
    {name: "Desk Chair", price: 150, category: "Furniture",}
 ];
 
-// function getProductsByCategory(products, category) {
-//     return products.filter(product => product.category === category);
-// }
+function getProductsByCategory(products, category) {
+    return products.filter(product => product.category === category);
+}
 
-// console.log(getProductsByCategory(products, "Electronics"));
+console.log(getProductsByCategory(products, "Electronics"));
 
 
 // Task 2
